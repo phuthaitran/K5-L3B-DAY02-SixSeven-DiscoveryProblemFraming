@@ -8,7 +8,7 @@
 - MSSV: 2A202603980
 - Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm: SixSeven
-- Link repo nhóm: [https://github.com/phuthaitran/K5-L3B-Day02-SixSeven-DiscoveryProblemFraming](https://github.com/phuthaitran/K5-L3B-Day02-SixSeven-DiscoveryProblemFraming)
+- Link repo nhóm: [https://github.com/phuthaitran/K5-L3B-DAY02-SixSeven-DiscoveryProblemFraming](https://github.com/phuthaitran/K5-L3B-DAY02-SixSeven-DiscoveryProblemFraming)
 
 ---
 
@@ -177,9 +177,11 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-Problem của Đào Lê Bảo Minh tôi nghĩ tất cả mọi người đều sẽ phải gặp lại trong suốt cuộc đời. Minh mô tả vấn đề rất rõ vì anh ấy có cả ví dụ khi đi làm: dù hằng tháng được training, nhưng vì thói quen, nhân viên công ty của anh ấy vẫn mang theo mindset cũ, dẫn tới giá trị chính trong dự án mới có thể bị lu mờ đi.
+Problem của Đào Lê Bảo Minh tôi nghĩ tất cả mọi người đều sẽ phải gặp lại trong suốt cuộc đời. Minh mô tả vấn đề rất rõ vì anh ấy có cả ví dụ khi đi làm: dù hằng tháng được training, nhưng vì thói quen, nhân viên công ty của anh ấy vẫn mang theo mindset cũ, dẫn tới giá trị chính trong dự án mới có thể bị lu mờ đi. Qua đó tôi rút ra được kinh nghiệm là một bài toán chuẩn cần phải có một quy trình cụ thể và đo lường được bằng số liệu, thay vì chỉ giải quyết vấn đề trước mắt.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Tôi thấy đôi khi mình cứ làm phức tạp hóa vấn đề bằng AI, trong khi công cụ có sẵn dùng khéo léo một chút là đã giải quyết được phần lớn vấn đề rồi. Đó là lý do tôi hỏi Minh về NotebookLM.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
@@ -189,7 +191,11 @@ Sau câu hỏi "vấn đề bạn gặp có giống vấn đề của Minh khôn
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Điều khó nhất là tìm đúng vào trọng tâm gây mất thời gian nhất, vì tôi hay bị lan man, nó trôi đi thành kể khổ.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+
+Nếu làm lại, tôi sẽ bấm giờ thực tế ngay từ đầu chứ không ngồi tự tưởng tượng ra con số nữa. Về phần phản biện, tôi sẽ cứng rắn hơn với những ý tưởng thích dùng công nghệ phức tạp, bắt nhóm phải chứng minh công cụ hiện tại không còn phù hợp thì mới nghĩ đến chuyện dùng AI.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
