@@ -18,9 +18,9 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+| 1 |Minh | | | | |
+| 2 |Minh | | | | |
+| 3 |Minh | | | | |
 | 4 | | | | | |
 | 5 | | | | | |
 | 6 | | | | | |
