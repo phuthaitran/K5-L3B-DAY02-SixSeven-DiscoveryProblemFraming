@@ -81,3 +81,25 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 - Công cụ có sẵn như Anki, NotebookLM đã giải được phần lớn vấn đề. Phải chỉ ra đúng phần chúng chưa làm được thì mới nên tính tới AI.
+
+
+###DangKhacHoangMinh-2A202604082
+Phần việc phụ trách:
+- Tham gia cùng nhóm tổng hợp các candidate problem, phân loại thành các Cluster và xây dựng cây Opportunity Solution Tree (OST).
+- Tham gia chấm điểm, so sánh các candidate để thống nhất vấn đề nhóm lựa chọn.
+Đóng góp cụ thể (mình đã làm gì, ra sản phẩm gì):
+-Cùng nhóm phân loại các vấn đề có điểm chung thành 3 Cluster: khó ghi nhớ kiến thức, thiếu phương pháp ôn tập và thiếu công cụ theo dõi tiến độ.
+-Xác định Outcome và các Opportunity tương ứng trong cây OST, phân biệt nhu cầu thực tế với các giải pháp như AI tạo câu hỏi hay nhắc lịch.
+-Tham gia xây dựng bảng chấm điểm shortlist dựa trên Actor, quy trình, mức độ ảnh hưởng, khả năng đo lường và tính khả thi.
+-Góp phần thống nhất lựa chọn vấn đề người học chưa biết cách và thời điểm ôn tập phù hợp để hạn chế quên kiến thức.
+Bằng chứng (phần nào trong group_report.md, file nào trong report/assets/, commit nào):
+- `group_report.md`: dòng pitch 4–12, mục 3.2 → 10
+- Slide pitch tổng "Hệ thống tri thức chống quên"
+- Báo cáo cá nhân `report/individual/2A202603980_HoangTheDuyet.md`
+- Commit `afafcad`, `0a1979a`, `3279c3b`
+Điều mình học được từ phần nhóm:
+- Học được cách phân loại nhiều vấn đề riêng lẻ thành các nhóm có cùng bản chất.
+- Hiểu rõ sự khác biệt giữa Opportunity (nhu cầu, khó khăn của người dùng) và Solution (giải pháp giải quyết vấn đề)
+- Biết cách sử dụng OST để đi từ một mục tiêu chung đến những cơ hội giải quyết cụ thể.
+- Nhận ra rằng việc chọn problem không nên chỉ dựa trên ý tưởng nghe hay mà cần xem xét bằng chứng, mức độ ảnh hưởng và khả năng triển khai.
+
