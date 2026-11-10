@@ -57,22 +57,28 @@ truy xuất, vận dụng kiến thức khi cần.
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
--
+- Ứng dụng AI tự động tạo câu hỏi và bài tập ôn tập.
+
+- Tính năng nhắc nhở người học ôn tập theo lịch.
+
+- Sử dụng flashcard để ghi nhớ kiến thức.
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+|Người học khó nhớ lại kiến thức sau một khoảng thời gian |5 |4 |3 |4 |5 |5 |5 |31 |
+|Người học chưa biết cách và thời điểm ôn tập phù hợp |5 |4 |3 |4 |5|5 |5 |31 |
+|Người học khó xác định nội dung nào đã nhớ và nội dung nào cần ôn thêm |5 |4 |3 |4 |4 |5 |5 |30 |
 
 **Candidate được chọn:**
-
+Người học chưa biết cách và thời điểm ôn tập phù hợp 
 **Vì sao chọn:**
-
+Đây là vấn đề gần gũi với trải nghiệm học tập của các thành viên trong nhóm.
+Có thể xác định quy trình hiện tại: học bài → ghi chép → ôn tập không thường xuyên → quên kiến thức → phải học lại.
 **Vì sao loại các candidate còn lại:**
-
+Candidate A: Đây là vấn đề cốt lõi nhưng khá rộng, khó xác định một nguyên nhân cụ thể để can thiệp trong phạm vi lab.
+Candidate C: Có liên quan chặt chẽ đến Candidate B nhưng cần xây dựng cách đánh giá khả năng ghi nhớ và theo dõi tiến độ tương đối rõ ràng.
 **Xử lý bất đồng (nếu có):**
 
 ---
@@ -83,12 +89,12 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
+| 1 |Nhiều người học thường quên kiến thức sau một khoảng thời gian nếu không ôn tập lại. |Value |5 |3 |Có |
+| 2 |Người học gặp khó khăn trong việc xác định khi nào cần ôn tập lại kiến thức. |Value |5 |2 |Có |
+| 3 |Người học sẵn sàng sử dụng một ứng dụng hỗ trợ quản lý và nhắc nhở ôn tập. |Viability |4 |2 |Có |
+| 4 |Người học có thể dễ dàng tải tài liệu hoặc nhập nội dung bài học lên ứng dụng. |Usability |3 |3 |Có |
+| 5 |AI có thể tạo câu hỏi và bài tập ôn tập chính xác, bám sát nội dung tài liệu. |Feasibility	 |5 |2 |Có |
+| 6 |Có thể xây dựng cơ chế đề xuất thời điểm ôn tập dựa trên kết quả làm bài của người học. |Feasibility |4 |2 |Có |
 
 *Điền 4–6 giả định; xóa dòng thừa.*
 
