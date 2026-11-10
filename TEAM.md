@@ -82,6 +82,36 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Cách để phân tích một problem dựa trên actor, bối cảnh và impact
 - Tìm ra opportunity từ vấn đề, đánh giá sự cần thiết của AI, từ đó đưa ra solution phù hợp
 
+### DaoLeBaoMinh-2A202604010
+
+**Phần việc phụ trách:**
+
+- Đề xuất problem được nhóm chọn (Problem Card "Nhớ lại kiến thức cũ")
+- Người chính phụ trách research giải pháp đã có (CP4); hỗ trợ kiểm chứng, quy trình trước/sau và mức can thiệp
+- Làm slide pitch tổng "Hệ thống tri thức chống quên"
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Pitch 3 Problem Card (nhớ lại kiến thức cũ, tìm lại thông tin lớp, kiểm soát tiền điện); card "Nhớ lại kiến thức cũ" thành nền cho candidate nhóm chọn
+- Nhận 3 câu phản biện và xử lý: Duyệt hỏi "NotebookLM đã trích xuất nhanh thì sao vẫn là problem?" → đưa NotebookLM vào bảng research để so sánh; Duyệt hỏi "Nhân viên quên mindset như thế nào? Bạn biết bằng cách nào?" → nhận ra phía nhân viên chưa có bằng chứng, nhóm thu hẹp actor về người học; Hoàng Minh hỏi quên là do không ôn, phương pháp chưa hợp hay do lượng kiến thức quá lớn
+- Phản biện card soạn giáo án của Hoàng Minh: sách giáo khoa chỉ đủ kiến thức cơ bản, giáo viên phải soạn thêm thì mới đáp ứng kết quả thi của học sinh
+- Research và so sánh Anki, RemNote, Mochi, Notion, Quizlet; tìm 2 nghiên cứu làm cơ sở khoa học (Murre & Dros 2015 về đường cong lãng quên; Roediger & Karpicke 2006 về hiệu ứng tự kiểm tra so với đọc lại)
+- Hỏi các bạn ngồi gần để kiểm chứng pain
+- Làm slide 5 trang: vấn đề → thực trạng → các hướng hiện tại → giải pháp → trước/sau, có ghi chú thuyết trình và nguồn số liệu
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `group_report.md`: mục 2.1 (dòng pitch 4–6 và câu phản biện ở dòng 1), mục 2.4 (xử lý bất đồng về NotebookLM), mục 3.3 (bảng research), mục 6.4 (dẫn Problem Card #1), mục 10 (tài liệu tham khảo)
+- Slide pitch tổng "Hệ thống tri thức chống quên"
+- Báo cáo cá nhân `report/individual/2A202604010_DaoLeBaoMinh.md`
+- Commit `8745d64`, `5303f63`, `88a5e1a`
+
+**Điều mình học được từ phần nhóm:**
+
+- Job Story không được chứa giải pháp; mình đã mắc lỗi solution-first ở bản đầu và phải viết lại
+- Research cho thấy Anki đã giải bước nhắc ôn, NotebookLM đã giải bước tra cứu; chỉ phần tạo câu hỏi tổng hợp và chấm bài giải thích mới thật sự cần AI
+- Các nhóm đồng tình sau khi nghe pitch chưa phải bằng chứng; cần hỏi về hành vi đã xảy ra
+
 ### HoangTheDuyet-2A202603980
 
 **Phần việc phụ trách:**
@@ -136,4 +166,3 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - Hiểu rõ sự khác biệt giữa Opportunity (nhu cầu, khó khăn của người dùng) và Solution (giải pháp giải quyết vấn đề)
 - Biết cách sử dụng OST để đi từ một mục tiêu chung đến những cơ hội giải quyết cụ thể.
 - Nhận ra rằng việc chọn problem không nên chỉ dựa trên ý tưởng nghe hay mà cần xem xét bằng chứng, mức độ ảnh hưởng và khả năng triển khai.
-
