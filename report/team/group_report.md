@@ -18,9 +18,9 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 |Minh | | | | |
-| 2 |Minh | | | | |
-| 3 |Minh | | | | |
+| 1 |Minh |Khi chuẩn bị cho các buổi dạy thêm hằng tuần, tôi muốn xây dựng giáo án đầy đủ, có cấu trúc và phù hợp với nội dung cần dạy.  |Giáo viên dạy thêm, gia sư | Phải tìm kiếm, đọc, chọn lọc và biên soạn nội dung từ nhiều nguồn khác nhau. Thời gian thực tế cần được ghi nhận qua từng buổi soạn bài. |trong sách giáo khoa có đầy đủ nhưng do giáo viên soạn ko chuẩn bị theo thì thực tế trong sách chỉ đủ kiến thức cơ bản và không thể chỉ dạy mỗi kiến thức cơ bản cho học sinh vì sẽ ảnh hưởng tới kết quả thi và học tập của học sinh.(Bảo Minh) |
+| 2 |Minh |Khi học một kiến thức mới hoặc tham gia một buổi học, tôi muốn có thể ghi nhớ và truy xuất lại kiến thức đã học sau một khoảng thời gian để sử dụng chúng trong những tình huống tiếp theo. |Học sinh, sinh viên, người tự học, nhân viên tham gia đào tạo. |Kiến thức không được ôn tập hoặc truy xuất thường xuyên, dẫn đến khó nhớ lại. Cần đo thời gian đọc lại và số lần phải học lại. |Vậy có phải do người đấy lười ôn tập hay những lí do khác.(Thái) |
+| 3 |Minh |Khi nhóm bắt đầu một công việc hoặc dự án mới có liên quan đến những công việc trước đây, tôi muốn truy xuất và áp dụng các bài học kinh nghiệm cũ để tránh lặp lại sai lầm và nâng cao hiệu quả thực hiện. |Nhân viên, thành viên nhóm dự án, trưởng nhóm |Kinh nghiệm cũ khó được nhớ lại hoặc tìm kiếm. Thời gian tìm kiếm thực tế cần được đo bằng cách theo dõi một số nhiệm vụ. |Nếu kinh nghiệm cũ khó được nhớ lại hoặc tìm kiếm, làm thế nào để xác định vấn đề thực sự nằm ở việc nhân viên không ghi chép, hệ thống lưu trữ chưa hiệu quả hay quy trình tìm kiếm còn phức tạp?(Duyệt)  |
 | 4 | | | | | |
 | 5 | | | | | |
 | 6 | | | | | |
