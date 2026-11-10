@@ -99,16 +99,19 @@ Candidate C: Có liên quan chặt chẽ đến Candidate B nhưng cần xây d�
 *Điền 4–6 giả định; xóa dòng thừa.*
 
 Giả định nhóm kiểm chứng trong buổi này:
-
+1. Người học thường quên kiến thức sau khi học nếu không ôn tập lại.
+2. Người học không biết nên ôn tập nội dung nào và vào thời điểm nào.
+3. Người học sẵn sàng sử dụng công cụ hỗ trợ ôn tập.
+4. Câu hỏi do AI tạo ra có thể giúp người học tự kiểm tra mức độ ghi nhớ.
 ### 3.2. Kiểm chứng
 
 Cách đã dùng: Phỏng vấn / Survey / Log, ticket, review
-
+Phỏng vấn
 Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
+| Người được hỏi (vai trò, không ghi tên thật) |Học viên trong lớp |
 | Câu nói đáng nhớ nhất (nguyên văn) | |
 | Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
 | Hiện đang xử lý bằng cách nào (workaround)? | |
@@ -119,17 +122,17 @@ Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| | | | |
+|Phỏng vấn người học |3 |Người học kể lại tình huống thường xuyên quên bài hoặc không biết ôn phần nào |Người học có lịch ôn tập rõ ràng và ít gặp vấn đề này |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
-
+Người học gặp khó khăn trong việc xác định nội dung cần ôn tập và thời điểm ôn tập phù hợp, dẫn đến việc ôn tập thiếu hệ thống và khó ghi nhớ kiến thức lâu dài.
 ### 3.3. Research giải pháp đã có
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+|Anki |https://apps.ankiweb.net |Ôn tập kiến thức bằng flashcard theo lịch |Có cơ chế lên lịch ôn tập, hỗ trợ người học ghi nhớ lâu dài |Người học thường phải tự tạo thẻ; có thể mất thời gian chuẩn bị nội dung |Nên có cơ chế ôn tập theo lịch và theo dõi kết quả |
+|Quizlet |https://quizlet.com |Tạo flashcard, đề kiểm tra và câu hỏi từ tài liệu |Có thể dùng AI chuyển ghi chú thành câu hỏi và bài kiểm tra |Câu hỏi AI tạo ra vẫn cần được người học kiểm tra lại; một số tính năng có giới hạn theo gói |Có thể tham khảo cách chuyển tài liệu thành bài tập luyện tập |
+|Remnote |https://help.remnote.com/en |Ghi chú, tạo flashcard và ôn tập theo lịch |Kết hợp ghi chú với spaced repetition; có hỗ trợ tạo flashcard bằng AI |Có thể gây khó khăn cho người mới nếu phải thiết lập và quản lý nhiều nội dung |Nên kết hợp lưu trữ kiến thức và ôn tập trong cùng một quy trình |
 
 ---
 
@@ -140,19 +143,34 @@ Tổng hợp:
 Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
 
 ```text
-
+Người học tiếp nhận bài học
+          |
+          v
+Ghi chép / lưu tài liệu
+          |
+          v
+Tự đọc lại và ôn tập
+          |
+          v
+Không nhớ rõ kiến thức
+          |
+          v
+Tìm lại tài liệu / học lại
+          |
+          v
+Tiếp tục ôn tập khi có nhu cầu
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1.Tiếp nhận kiến thức |Người học |Bài giảng, sách, tài liệu |Kiến thức mới |Theo lịch học |Tiếp nhận nội dung |
+| 2.Ghi chép và lưu trữ |Người học |Kiến thức vừa học |Vở ghi, file tài liệu |Sau buổi học |Tùy thói quen mỗi người |
+| 3. Ôn tập |Người học |Vở ghi, tài liệu cũ |Kiến thức được củng cố |Không cố định |Có thể chỉ ôn trước kỳ thi |
+| 4. Kiểm tra khả năng ghi nhớ |Người học |Kiến thức đã học |Nhận biết phần nhớ và chưa nhớ |Khi làm bài hoặc tự kiểm tra |Chưa có cơ chế theo dõi liên tục |
+| 5. Tìm lại và học lại |Người học |Nội dung đã quên |Kiến thức được xem lại |Khi cần sử dụng |Có thể mất thời gian tìm kiếm |
 
 **Bottleneck chính:**
-
+Người học chưa có phương pháp xác định nội dung cần ôn và thời điểm ôn tập phù hợp. Việc ôn tập phụ thuộc nhiều vào trí nhớ và thói quen cá nhân, khiến một số kiến thức chỉ được xem lại khi đã quên hoặc khi sắp kiểm tra.
 ### 4.2. Quy trình tương lai
 
 Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
