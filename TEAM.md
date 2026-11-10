@@ -95,8 +95,8 @@ Phần việc phụ trách:
 Bằng chứng (phần nào trong group_report.md, file nào trong report/assets/, commit nào):
 - `group_report.md`: dòng pitch 4–12, mục 3.2 → 10
 - Slide pitch tổng "Hệ thống tri thức chống quên"
-- Báo cáo cá nhân `report/individual/2A202603980_HoangTheDuyet.md`
-- Commit `afafcad`, `0a1979a`, `3279c3b`
+- Báo cáo cá nhân `report/individual/2A202604082_DangKhacHoangMinh.md`
+- Commit `25918e0`
 Điều mình học được từ phần nhóm:
 - Học được cách phân loại nhiều vấn đề riêng lẻ thành các nhóm có cùng bản chất.
 - Hiểu rõ sự khác biệt giữa Opportunity (nhu cầu, khó khăn của người dùng) và Solution (giải pháp giải quyết vấn đề)
