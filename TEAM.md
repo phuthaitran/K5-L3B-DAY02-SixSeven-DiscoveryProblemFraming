@@ -54,3 +54,28 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 -
+
+### HoangTheDuyet-2A202603980
+
+**Phần việc phụ trách:**
+
+- Đưa ra problem và phản biện các problem khác ở CP3
+- Research các công cụ có sẵn (Anki, NotebookLM, Quizlet)
+- Lên ý tưởng cho buổi pitch tổng, chỉnh sửa slide
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Pitch Card "Thông báo từ nhiều kênh" và gộp problem "tìm lại ghi chú" của mình vào cluster "Khó ghi nhớ kiến thức" của problem được chọn
+- Đặt câu hỏi phản biện cho Minh: "NotebookLM đã trích xuất nhanh thì sao vẫn là problem?". Nhờ câu này, nhóm đưa NotebookLM vào bảng research để so sánh
+- Research và so sánh Anki, NotebookLM, Quizlet, tìm ra khoảng trống là câu hỏi tổng hợp và chấm bài giải thích
+- Cùng lên ý tưởng pitch tổng và sửa slide "Hệ thống tri thức chống quên"
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- Slide pitch tổng "Hệ thống tri thức chống quên"
+- Báo cáo cá nhân `report/individual/2A202603980_HoangTheDuyet.md`
+- Commit `afafcad`, `0a1979a`, `3279c3b`
+
+**Điều mình học được từ phần nhóm:**
+
+- Công cụ có sẵn như Anki, NotebookLM đã giải được phần lớn vấn đề. Phải chỉ ra đúng phần chúng chưa làm được thì mới nên tính tới AI.

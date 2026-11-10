@@ -1,6 +1,6 @@
 # Báo cáo cá nhân — 2A202603980_HoangTheDuyet
 
-> Đổi tên file theo quy tắc `MSSV_[HoTen.md](http://HoTen.md)`, ví dụ `20241234_[NguyenVanAn.md](http://NguyenVanAn.md)` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp. Template chi tiết và prompt mẫu cho từng mục: ++[docs/](https://github.com/VinUni-AI20k/K5-L3-Day02-DiscoveryProblemFraming/blob/main/docs/01-worksheet.md)[01-worksheet.md](http://01-worksheet.md)++. Mỗi thành viên một file trong `report/individual/` trên repo nhóm: copy template này thành file mới, điền, rồi commit bằng tài khoản GitHub của bạn. Không viết hộ người khác.
+> Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
 
 ## 1. Thông tin học viên
 
@@ -147,11 +147,11 @@ HIỆN TẠI — ~15 phút/ngày
 | Nhận phản biện | Câu hỏi tôi nhận được: "Vấn đề bạn gặp có giống vấn đề của Minh không?" | Tôi không sửa card. Nhưng lúc trả lời thì cả nhóm thấy vấn đề của tôi với của Minh thật ra là một: học xong rồi quên, nên gộp chung một cluster |
 | Gom cluster / cây OST | Đề xuất gộp problem #1 của tôi (quên kiến thức, tìm lại ghi chú) vào cluster của problem chính vì cùng pattern | Problem chính có thêm một bằng chứng từ người học (30+ phút/ngày tìm lại ghi chú) |
 | Chọn candidate problem | Tham gia chấm điểm các problem theo từng tiêu chí; problem có tổng điểm cao nhất được chọn | Nhóm chọn problem "Hệ thống tri thức chống quên" của Minh. Sau đó tôi cùng lên ý tưởng cho buổi pitch tổng và chỉnh sửa slide |
-| Kiểm chứng / research | Research và so sánh các công cụ đã có: Anki, NotebookLM, Quizlet (có dùng AI hỗ trợ, xem mục 5). Cùng nhóm pitch vòng đồng trước cụm 5 nhóm | Các công cụ đều đáp ứng được một phần: Anki nhắc ôn đúng lúc nhưng chỉ có thẻ hỏi–đáp; NotebookLM tra cứu nhanh từ tài liệu nhưng không nhắc ôn. Kiểm chứng: cả 5 nhóm trong cụm đều đồng tình với vấn đề của nhóm |
+| Kiểm chứng / research | Research và so sánh các công cụ đã có: Anki, NotebookLM, Quizlet (có dùng AI hỗ trợ, xem mục 5). Cùng nhóm hỏi trực tiếp nhóm 8 và pitch vòng đồng trước cụm 5 nhóm | Các công cụ đều đáp ứng được một phần: Anki nhắc ôn đúng lúc nhưng chỉ có thẻ hỏi–đáp; NotebookLM tra cứu nhanh từ tài liệu nhưng không nhắc ôn. Kiểm chứng: nhóm 8 và cả 5 nhóm trong cụm đều đồng tình với vấn đề của nhóm |
 | Quy trình nhóm | Hỗ trợ: phản biện các bước trong quy trình | Góp ý vào quy trình trước/sau của nhóm |
 | Problem Statement | Hỗ trợ: phản biện nội dung Problem Statement | Góp ý cho bản Problem Statement của nhóm |
 | Mức can thiệp AI | Dùng AI để research, so sánh các mức No AI / Rule / Workflow / Agent và phản biện lại chính mình | Nhóm chọn Workflow: Anki (Rule) đã làm phần nhắc ôn; AI chỉ cần ở 1 bước là ra câu hỏi tổng hợp từ ghi chú và chấm bài; không cần Agent vì các bước cố định |
-| Quyết định | Hỗ trợ thảo luận quyết định | Not Yet: chưa chứng minh được Anki + NotebookLM là không đủ; thử 2 tuần trước, có ngưỡng dừng |
+| Quyết định | Hỗ trợ thảo luận quyết định | Go, phạm vi nhỏ: pilot 2 tuần không xây app, Anki xếp lịch, AI tạo câu hỏi và chấm bằng prompt chuẩn, có ngưỡng dừng |
 
 
 ---
@@ -163,10 +163,10 @@ HIỆN TẠI — ~15 phút/ngày
 | ------------------------------ | ---------------------- | ----------------- | -------------------------- | ----------------------------------- |
 | CP1 Scan | Phản biện bảng scan sau khi tự viết 10 problem | Chỉ ra 5/10 dòng chưa có số đo, dòng quá chung, thiếu lăng kính "Pain từ người khác" | Đề nghị bỏ #4, #7, #10 dù đó là việc tôi thật sự gặp; rút gọn câu làm mất bớt ý gốc | Giữ #4, #7, #10 nhưng thu hẹp và thêm số; tự đọc lại từng Job Story cho đúng ý mình |
 | CP2 Problem Card | Dựng khung 3 Problem Card và đóng vai "PM hoài nghi" phản biện | Chỉ ra Impact card #1 chưa có số, baseline 30 phút chỉ dựa trên trí nhớ, Feasibility đọc tin Zalo/Messenger | Các bước quy trình AI viết theo kiểu chung chung, chưa đúng hẳn cách tôi làm | Tự kiểm và chia số phút từng bước theo thực tế; ghi số thông báo bị lỡ; đưa "trễ việc do quá tải?" vào điều còn chưa chắc |
-| CP4 Research | Nhờ AI đọc slide của nhóm, so sánh Anki, NotebookLM, Quizlet và kiểm lại mấy con số trong slide (Ebbinghaus, McKinsey) | Chỉ ra nhanh mỗi công cụ làm được gì, thiếu gì; thấy các con số trong slide khớp với nghiên cứu gốc | AI bảo số liệu khớp nhưng không đưa link đã mở. Lúc tôi kể kiểm chứng thiếu ý, AI kết luận luôn là nhóm chỉ hỏi trong nhóm, vi phạm luật | Tự đính chính là nhóm đã pitch trước cụm 5 nhóm. Ghi nhớ là link nào cũng phải tự mở lại rồi mới đưa vào bảng research |
+| CP4 Research | Nhờ AI đọc slide của nhóm, so sánh Anki, NotebookLM, Quizlet và kiểm lại mấy con số trong slide (Ebbinghaus, McKinsey) | Chỉ ra nhanh mỗi công cụ làm được gì, thiếu gì; thấy các con số trong slide khớp với nghiên cứu gốc | AI bảo số liệu khớp nhưng không đưa link đã mở. Lúc tôi kể kiểm chứng thiếu ý, AI kết luận luôn là nhóm chỉ hỏi trong nhóm, vi phạm luật | Tự đính chính là nhóm đã hỏi nhóm 8 và pitch trước cụm 5 nhóm. Ghi nhớ là link nào cũng phải tự mở lại rồi mới đưa vào bảng research |
 | CP5 Quy trình | Không dùng AI | — | — | — |
-| CP5–6 Problem Statement | Nhờ AI phản biện lại chính suy nghĩ của mình và gợi ý metric | Chỉ ra chỗ mình còn chủ quan, nhất là đoạn slide nhảy thẳng sang giải pháp | AI lấy luôn con số 30 phút của riêng tôi ở CP1 làm baseline cho cả nhóm, như thể đó là số chung | Giữ con số nhưng ghi rõ đó là ước lượng của tôi, sẽ đo lại trong 2 tuần dùng thử |
-| CP6 Mức can thiệp / quyết định | Nhờ AI so sánh 4 mức No AI / Rule / Workflow / Agent và đề xuất quyết định | Hiểu ra phần nhắc ôn là Rule (Anki đã làm), AI chỉ cần ở một bước nên Workflow là đủ | AI đề xuất luôn cả mức can thiệp lẫn quyết định, dễ làm mình dựa vào nó thay vì tự nghĩ | Đối chiếu với nhóm: nhóm cũng chọn Workflow và Not Yet nên mới giữ, không lấy nguyên đề xuất của AI |
+| CP5–6 Problem Statement | Nhờ AI phản biện lại chính suy nghĩ của mình và gợi ý metric | Chỉ ra chỗ mình còn chủ quan, nhất là đoạn slide nhảy thẳng sang giải pháp | AI lấy luôn con số 30 phút của riêng tôi ở CP1 làm baseline cho cả nhóm, như thể đó là số chung | Đổi sang dùng số trong Problem Card của Minh (khoảng 20 phút), vì đó là card được chọn, và ghi rõ là ước lượng, sẽ đo lại khi dùng thử |
+| CP6 Mức can thiệp / quyết định | Nhờ AI so sánh 4 mức No AI / Rule / Workflow / Agent và đề xuất quyết định | Hiểu ra phần nhắc ôn là Rule (Anki đã làm), AI chỉ cần ở một bước nên Workflow là đủ | AI đề xuất Not Yet, và có lúc hiểu sai ý tôi nên ghi luôn Not Yet vào bài | Đối chiếu với nhóm: nhóm chọn Go phạm vi nhỏ (pilot 2 tuần), nên tôi sửa lại, không lấy nguyên đề xuất của AI |
 
 
 ---
@@ -189,7 +189,7 @@ Với câu hỏi "vấn đề của bạn có giống của Minh không" thì t�
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
-Không bất ngờ lắm, đúng như tôi đoán từ đầu. Pitch vòng đồng trước cụm 5 nhóm thì nhóm nào cũng gật đầu, ai cũng từng học xong rồi quên. Phần research thì Anki, NotebookLM, Quizlet mỗi cái làm được một khúc, chưa thấy cái nào vừa nhắc ôn đúng lúc vừa kiểm tra được mình có hiểu thật không.
+Không bất ngờ lắm, đúng như tôi đoán từ đầu. Hỏi nhóm 8 rồi pitch vòng đồng trước cụm 5 nhóm thì nhóm nào cũng gật đầu, ai cũng từng học xong rồi quên. Phần research thì Anki, NotebookLM, Quizlet mỗi cái làm được một khúc, chưa thấy cái nào vừa nhắc ôn đúng lúc vừa kiểm tra được mình có hiểu thật không.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
@@ -201,7 +201,7 @@ Nếu làm lại, tôi sẽ bấm giờ thật ngay từ đầu chứ không ng�
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
-Vấn đề nhóm tôi chọn là học xong thì hiểu, nhưng vài tuần sau quên gần hết, cần dùng lại thì phải học lại từ đầu. Quy trình bây giờ là học, ghi chú, đến lúc cần thì lục lại ghi chú đọc lại; chỗ nghẽn là mình không biết lúc nào sắp quên, mà ôn thì chỉ đọc lại cho có. Metric là thời gian học lại một khái niệm, hiện khoảng 30 phút (ước lượng của tôi, chưa đo), mục tiêu xuống dưới 10 phút. Ranh giới cho AI là không được tự bịa nội dung ngoài ghi chú của người học, còn điểm chấm cuối cùng thì người học tự xem lại. Nhóm chọn Workflow chứ không phải Agent, vì phần nhắc ôn thì Anki đã làm được bằng thuật toán, AI chỉ cần làm đúng một bước là ra câu hỏi tổng hợp và chấm bài. Quyết định là Not Yet: dùng thử Anki với NotebookLM trong 2 tuần, nếu thời gian học lại đã dưới 10 phút thì không cần làm công cụ mới, còn nếu bỏ ôn quá nửa số ngày thì dừng.
+Vấn đề nhóm tôi chọn là học xong thì hiểu, nhưng vài tuần sau quên gần hết, cần dùng lại thì phải học lại từ đầu. Quy trình bây giờ là học, ghi chú, đến lúc làm lab cần thì lục lại slide đọc lại; chỗ nghẽn là mình không biết lúc nào sắp quên, mà ôn thì chỉ đọc lại cho có. Metric là thời gian nhớ lại một khái niệm, hiện khoảng 20 phút (ước lượng trong card của Minh, chưa đo), mục tiêu xuống dưới 5 phút; thêm bộ 10 câu tự kiểm tra sau 10 ngày, từ khoảng 3/10 lên ít nhất 7/10. Ranh giới cho AI là không được tự bịa nội dung ngoài ghi chú của người học, còn điểm chấm cuối cùng thì người học tự xem lại. Nhóm chọn Workflow chứ không phải Agent, vì phần nhắc ôn thì Anki đã làm được bằng thuật toán, AI chỉ cần làm đúng một bước là ra câu hỏi tổng hợp và chấm bài. Quyết định là Go nhưng làm nhỏ: chạy thử 2 tuần, không xây app, Anki lo lịch ôn, AI tạo câu hỏi và chấm bằng một prompt chuẩn; nếu sau 2 tuần thời gian nhớ lại không xuống dưới 10 phút hoặc AI chấm lệch quá 2/10 câu thì quay về Anki với câu hỏi tự viết.
 
 ---
 
