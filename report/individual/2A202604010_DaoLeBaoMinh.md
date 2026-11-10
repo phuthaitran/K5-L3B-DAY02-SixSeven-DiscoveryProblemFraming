@@ -140,7 +140,7 @@ HIỆN TẠI — ~4 phút/lần, gần như mỗi ngày, nhưng không ra kết 
 |---|---|---|
 | Pitch Problem Card | Chia sẻ idea về top 3 problems | Problem #1 được chọn làm problem được pitch, được nhận ý kiến đóng góp phát triển từ các team members |
 | Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Nếu bạn đóng vai với tư cách là dev của grab, tính năng bạn muốn bổ sung giúp khách hàng trả ít tiền hơn liệu có làm ảnh hưởng đến doanh thu của công ty không? | Bạn trả lời tính năng này mục đích là giúp user tiếp cận dễ hơn, mua đồ ăn rẻ hơn so với cách áp thử giảm giá rồi check từng đơn như hiện tại, tuy nhiên không trả lời được ý có mang lại doanh thu cho công ty hay không. |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
+| Nhận phản biện | Câu hỏi tôi nhận được: Duyệt hỏi "Nhân viên của công ty bị quên mindset như thế nào? Bạn biết bằng cách nào?" | Nhận ra story đang gộp hai actor (người học và nhân viên) và phía nhân viên chưa có bằng chứng; cần tách actor (xem 6.5) |
 | Gom cluster / cây OST | | |
 | Chọn candidate problem | | |
 | Kiểm chứng / research | Khảo sát các bạn ngồi gần bàn, tìm kiếm các công cụ giải quyết vấn đề sẵn có (Anki, Notion, RemNote, Mochi, Quizlet) | Đánh giá hai thứ: (1) pain point có thật không? họ đau vì họ chưa có giải pháp hay họ không nhận ra họ đang đau? (2) các solution hiện tại gỡ được đến đâu? |
@@ -160,7 +160,7 @@ HIỆN TẠI — ~4 phút/lần, gần như mỗi ngày, nhưng không ra kết 
 | CP4 Research | Tìm công cụ tương tự và số liệu khoa học cho slide | Tìm được Roediger & Karpicke (2006): sau 1 tuần, nhóm tự kiểm tra nhớ 61%, nhóm đọc lại nhớ 40%. Đây là bằng chứng cho bottleneck "đọc lại chỉ tạo recognition" | Lần đầu tìm thiếu công cụ; con số McKinsey "1,8 giờ/ngày tìm thông tin" được trích khắp nơi nhưng một nguồn đối chiếu cho thấy nó không có trong báo cáo gốc | Nhắc AI tìm thêm; chỉ dùng con số ~19% thời gian có trong báo cáo gốc |
 | CP5 Quy trình | | | | |
 | CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp | Dựng slide 5 trang: vấn đề → thực trạng → giải pháp hiện có → giải pháp → trước/sau | Có khung trình bày nhanh, số liệu có nguồn | Slide hứa kết quả nhưng chưa có cách đo; chưa xử lý rủi ro AI chấm sai; chưa so sánh 4 mức No AI / Rule / Workflow / Agent | [em ghi phần em đã sửa] |
+| CP6 Mức can thiệp | Dựng slide 5 trang: vấn đề → thực trạng → giải pháp hiện có → giải pháp → trước/sau | Có khung trình bày nhanh, số liệu có nguồn | Slide hứa kết quả nhưng chưa có cách đo; chưa xử lý rủi ro AI chấm sai; chưa so sánh 4 mức No AI / Rule / Workflow / Agent | Chưa sửa kịp trong buổi; ghi lại làm hướng tiếp theo cho nhóm |
 
 ---
 
@@ -174,16 +174,21 @@ Các bạn có những vấn đề mà bản thân mình không gặp, nhưng đ
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
-Các vấn đề mà từng bạn (Duyệt, Thái và Hoàng Minh) pitching chéo chưa có tư duy solution-first. bạn thì bảo "muốn làm cách nào để soạn giáo án nhanh hơn thay vì thủ công quá nhiều", một bạn "nạp thông tin quá nhiều trong thời gian ngắn, không kịp research để tổng hợp kiến thức nhanh", một bạn "IT support không tra cứu được nhanh lời giải ở đâu mà phải hỏi back and forth với đồng nghiệp"
-tuy nhiên, vấn đề của em thì có. từ bước job story em từng viết "tôi muốn quản trị knowledge base dưới dạng tri thức và làm bài tập với nhiều format trước khi quên". em hiểu đây chính là điển hình của solution-first, tuy nhiên nó xuất phát từ vấn đề em đã định nghĩa từ rất lâu "nhiều ghi chú loạn, khó kiểu soát; học xong quên, chưa có cách spaced repetition phù hợp ngoài anki; em muốn khi ôn lại, em được cho bài tập để giải thật sự (trắc nghiệm, tự luận, ...) thay vì đơn thuần là lật thẻ card". tuy nhiên vấn đề của em đã được em định nghĩa từ hơn một tháng và em đã lên solution cụ thể. điều đó không phủ nhận em đang tư duy hướng dần theo hướng solution-first và các bạn đã nhắc em sửa lại khi pitching chéo.
+Các vấn đề mà các bạn (Duyệt, Thái và Hoàng Minh) pitch chéo chưa bị solution-first: một bạn bảo "muốn làm cách nào để soạn giáo án nhanh hơn thay vì thủ công quá nhiều", một bạn "nạp thông tin quá nhiều trong thời gian ngắn, không kịp research để tổng hợp kiến thức nhanh", một bạn "IT support không tra cứu được nhanh lời giải ở đâu mà phải hỏi back and forth với đồng nghiệp".
+
+Tuy nhiên, vấn đề của em thì có. Ở bước Job Story, em từng viết "tôi muốn quản trị knowledge base dưới dạng tri thức và làm bài tập với nhiều format trước khi quên". Đây là điển hình của solution-first. Vấn đề gốc em đã định nghĩa từ hơn một tháng trước ("nhiều ghi chú loạn, khó kiểm soát; học xong quên, chưa có cách spaced repetition phù hợp ngoài Anki; em muốn khi ôn lại được giải bài tập thật sự thay vì chỉ lật thẻ"), và trong thời gian đó em đã lên sẵn solution cụ thể, nên khi viết Job Story em đưa luôn giải pháp vào. Các bạn đã nhắc em khi pitch chéo. Em sửa bằng cách viết lại Job Story chỉ giữ tình huống và mục tiêu, chuyển phần giải pháp sang mục "Giả thuyết về AI".
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
 Bạn Duyệt có đặt câu hỏi cho em là "nhân viên của công ty bị quên mindset như thế nào? bạn biết bằng cách nào?". Em đã có sẵn câu trả lời vì đó chính là vấn đề mà em viết "nhân viên họp xong dù hiểu vấn đề của mình, nhưng với 8 tiếng/ngày làm việc này việc kia, đôi khi bị cuốn vào làm việc mà không để ý đến việc mình có đang suy nghĩ đúng hướng không, dẫn tới mỗi buổi họp hoặc workshop dù tốn công tổ chức nhưng chỉ mang lại hiệu quả trong vài ngày. khi gặp vấn đề mới, họ không tư duy được để gắn mindset cần sửa vào để suy nghĩ."
 
+Em thấy nó vẫn đúng chứ chưa đổi gì, do mấy đồng nghiệp cũ của em như vậy thật. Mọi người khá bảo thủ, đòi triển khai các project AI-first nhưng lại không chịu học nền về AI, toàn đưa yêu cầu cho AI bảo nó làm hết. Nhiều workshop được thực hiện để thay đổi nhưng chỉ hiệu quả vài ngày. Dự án đã bảo focus vào value gain nhưng mấy anh cứ thêm rất nhiều tính năng, cố sửa giao diện cho đẹp thay vì tập trung vào nỗi đau. Và đây là vấn đề có thật.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
 Không bất ngờ lắm, đúng như tôi đoán từ đầu. Pitch vòng đồng trước cụm 5 nhóm thì nhóm nào cũng gật đầu, ai cũng từng học xong rồi quên. Phần research thì Anki, NotebookLM, Quizlet mỗi cái làm được một khúc, chưa thấy cái nào vừa nhắc ôn đúng lúc vừa kiểm tra được mình có hiểu thật không.
+
+Tuy vậy, chính vì không có gì bất ngờ nên em chưa coi đây là kết luận chắc chắn: em mới khảo sát vài bạn ngồi gần, mọi người chỉ đơn giản xác nhận là có gặp vấn đề em kể, và việc các nhóm gật đầu khi nghe pitch chưa phải là bằng chứng.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
@@ -191,11 +196,11 @@ Khó nhất là em đang chưa suy nghĩ được nên tách actor như thế n�
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
-Nếu làm lại, tôi sẽ làm kỹ hơn ở phần kiểm chứng và khảo sát. Do thời lượng làm pitching ngắn, tôi chưa thể thực hiện khảo sát ngay lúc đó được, trong khi việc chứng minh các giả định là có thật rất quan trọng. Nếu giả định không có thật hoặc vỡ, nó sẽ chứng minh lời giải của em là vô nghĩa. Do đó em sẽ khảo sát kỹ hơn, đặt các câu hỏi phù hợp để hy vọng nhận được những câu trả lời dễ gây bất ngờ nhất.
+Nếu làm lại, tôi sẽ làm kỹ hơn ở phần kiểm chứng và khảo sát. Do thời lượng làm pitching ngắn, em mới khảo sát vài bạn ngồi gần, chưa đủ nhiều mẫu để kết luận; mọi người chỉ đơn giản bảo là có gặp vấn đề mà em kể, trong khi việc chứng minh các giả định là có thật rất quan trọng. Nếu giả định không có thật hoặc vỡ, nó sẽ chứng minh lời giải của em là vô nghĩa. Do đó em sẽ khảo sát kỹ hơn, đặt các câu hỏi phù hợp để hy vọng nhận được những câu trả lời dễ gây bất ngờ nhất.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
-Mỗi bạn viết 3 problems -> đưa ra proof chứng minh vì sao bài toán của mình đáng giải -> chọn ra problem ăn tiền nhất cho pitching cụm -> sử dụng AI để research (khảo sát xu hướng cũng như các hướng giải hiện tại) -> evidences -> bottlenecks -> lời giải baseline (no AI) -> ước lượng hiệu quả -> AI có thể giúp baseline tốt hơn thế nào, tốt hơn bao nhiêu lần -> kết luận.
+Nhóm chọn bài toán "Nhớ lại kiến thức cũ (#1)", actor vẫn giữ nguyên là cả người học và nhân viên công ty, khi pitch nói cả hai chứ chưa tách. Quy trình hiện tại là viết notes, dùng Anki, đọc lại tài liệu, workshop công ty định kỳ; nghẽn do không biết khi nào mình sắp quên để đọc lại, tốn nhiều thời gian ôn lại hơn là học cái mới, còn workshop thì tốn công sức và không personalized. Metric: chưa đo, nhưng mục tiêu là knowledge retention cao hơn, hỏi phát nhớ ngay dù lần đầu học từ bao lâu đi chăng nữa. AI viết đề, viết rubric, chấm bài từ rubric nó viết, cập nhật recall. Boundary: AI không học thay, không tự động show tài liệu trước khi bảo user nhớ lại.
 
 ---
 
