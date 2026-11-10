@@ -41,11 +41,11 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
--
+- 
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+- 
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
@@ -54,6 +54,33 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 -
+
+### TranPhuThai-2A202604001
+
+**Phần việc phụ trách:**
+
+- Nhóm trưởng, quản lý repo và điều phối công việc
+- Đưa ra problem và phản biện các problem khác của cả nhóm
+- Tham gia chấm điểm để chọn ra problem của nhóm
+- Hỗ trợ công việc research cho pitch tổng của nhóm
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Đặt câu hỏi phản biện cho Minh: "Người học quên kiến thức có phải do người đấy lười ôn tập hay những lí do khác?", từ đó tìm ra được thực trạng quên kiến thức khi học
+- Sắp xếp các problem thành 3 cluster, loại bỏ các problem ngoài các cluster trên
+- Loại bỏ các solution đội lốt oppotunity
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `group_report.md`: dòng pitch 4–12, mục 3.2 → 10
+- Slide pitch tổng "Hệ thống tri thức chống quên"
+- Báo cáo cá nhân `report/individual/2A202604001_TranPhuThai.md`
+- Commit `24920ec`
+
+**Điều mình học được từ phần nhóm:**
+
+- Cách để phân tích một problem dựa trên actor, bối cảnh và impact
+- Tìm ra opportunity từ vấn đề, đánh giá sự cần thiết của AI, từ đó đưa ra solution phù hợp
 
 ### HoangTheDuyet-2A202603980
 
