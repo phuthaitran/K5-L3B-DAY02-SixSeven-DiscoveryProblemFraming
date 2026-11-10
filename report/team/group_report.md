@@ -35,19 +35,24 @@
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| A. Khó ghi nhớ kiến thức  |Học xong nhưng một thời gian sau quên kiến thức; đọc lại bài nhưng chỉ nhớ mang máng; khó nhớ lại khái niệm khi cần sử dụng. |Kiến thức không được ghi nhớ lâu dài hoặc khó truy xuất khi cần. |
+| B. Thiếu phương pháp ôn tập |Không biết nên ôn lại kiến thức nào; không có lịch ôn tập; thường chỉ đọc lại bài trước kỳ thi. |Việc ôn tập thiếu hệ thống và chưa đúng thời điểm. |
+| C. Thiếu công cụ theo dõi tiến độ |Không biết mình đã nhớ hay quên phần nào; khó tìm lại kiến thức cũ; không biết cần luyện tập thêm nội dung nào. |Người học thiếu cơ chế theo dõi và đánh giá khả năng ghi nhớ. |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: 
-├── Opportunity A: 
-├── Opportunity B: 
-└── Opportunity C: 
+OUTCOME: Giúp người học ghi nhớ kiến thức lâu hơn và có thể
+truy xuất, vận dụng kiến thức khi cần.
+│
+├── Opportunity A: Người học khó nhớ lại kiến thức đã học sau một
+│   khoảng thời gian.
+├── Opportunity B: Người học chưa biết cách và thời điểm ôn tập
+│   phù hợp để hạn chế quên kiến thức.
+└── Opportunity C: Người học khó xác định nội dung nào đã nhớ,
+    nội dung nào cần ôn tập thêm.
 ```
 
 Những ý đã gạch bỏ vì là solution đội lốt opportunity:
