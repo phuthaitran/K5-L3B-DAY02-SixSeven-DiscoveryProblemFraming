@@ -148,8 +148,8 @@ HIỆN TẠI — ~15 phút/ngày
 | Gom cluster / cây OST | Đề xuất gộp problem #1 của tôi (quên kiến thức, tìm lại ghi chú) vào cluster của problem chính vì cùng pattern | Problem chính có thêm một bằng chứng từ người học (30+ phút/ngày tìm lại ghi chú) |
 | Chọn candidate problem | Tham gia chấm điểm các problem theo từng tiêu chí; problem có tổng điểm cao nhất được chọn | Nhóm chọn problem "Hệ thống tri thức chống quên" của Minh. Sau đó tôi cùng lên ý tưởng cho buổi pitch tổng và chỉnh sửa slide |
 | Kiểm chứng / research | Research và so sánh các công cụ đã có: Anki, NotebookLM, Quizlet (có dùng AI hỗ trợ, xem mục 5). Cùng nhóm hỏi trực tiếp nhóm 8 và pitch vòng đồng trước cụm 5 nhóm | Các công cụ đều đáp ứng được một phần: Anki nhắc ôn đúng lúc nhưng chỉ có thẻ hỏi–đáp; NotebookLM tra cứu nhanh từ tài liệu nhưng không nhắc ôn. Kiểm chứng: nhóm 8 và cả 5 nhóm trong cụm đều đồng tình với vấn đề của nhóm |
-| Quy trình nhóm | Hỗ trợ: phản biện các bước trong quy trình | Góp ý vào quy trình trước/sau của nhóm |
-| Problem Statement | Hỗ trợ: phản biện nội dung Problem Statement | Góp ý cho bản Problem Statement của nhóm |
+| Quy trình nhóm | Viết quy trình hiện tại và tương lai trong báo cáo nhóm (mục 4), dựa trên Problem Card #1 của Đào Lê Bảo Minh | Chỉ ra 2 bottleneck: ôn bằng đọc lại và không có ôn giãn cách; quy trình tương lai có bước người học xem lại kết quả chấm và phương án quay về |
+| Problem Statement | Viết Problem Statement v0 và v1 (mục 5, 7), kèm 5 tiêu chí đánh giá đầu ra của AI | v1 thu hẹp actor về học viên AI20K và thêm metric tỉ lệ ngày có ôn |
 | Mức can thiệp AI | Dùng AI để research, so sánh các mức No AI / Rule / Workflow / Agent và phản biện lại chính mình | Nhóm chọn Workflow: Anki (Rule) đã làm phần nhắc ôn; AI chỉ cần ở 1 bước là ra câu hỏi tổng hợp từ ghi chú và chấm bài; không cần Agent vì các bước cố định |
 | Quyết định | Hỗ trợ thảo luận quyết định | Go, phạm vi nhỏ: pilot 2 tuần không xây app, Anki xếp lịch, AI tạo câu hỏi và chấm bằng prompt chuẩn, có ngưỡng dừng |
 
@@ -189,7 +189,7 @@ Với câu hỏi "vấn đề của bạn có giống của Minh không" thì t�
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
-Không bất ngờ lắm, đúng như tôi đoán từ đầu. Hỏi nhóm 8 rồi pitch vòng đồng trước cụm 5 nhóm thì nhóm nào cũng gật đầu, ai cũng từng học xong rồi quên. Phần research thì Anki, NotebookLM, Quizlet mỗi cái làm được một khúc, chưa thấy cái nào vừa nhắc ôn đúng lúc vừa kiểm tra được mình có hiểu thật không.
+Thật ra tôi không thấy lạ. Ngay từ lúc nghe Minh pitch, tôi đã nghĩ ai đi học cũng dính chuyện này, và đúng là khi hỏi nhóm 8 rồi đem ra cụm 5 nhóm thì chẳng ai phản đối. Cái làm tôi để ý hơn là lúc so các app: Anki giỏi nhắc ôn, NotebookLM giỏi tra lại, Quizlet thì cho làm thẻ, nhưng app nào cũng chỉ lo được một phần. Không cái nào vừa báo mình đến lúc ôn, vừa hỏi để biết mình hiểu thật hay chỉ thấy quen.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
