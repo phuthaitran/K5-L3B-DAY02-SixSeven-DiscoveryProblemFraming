@@ -18,12 +18,12 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 |Minh |Khi chuẩn bị cho các buổi dạy thêm hằng tuần, tôi muốn xây dựng giáo án đầy đủ, có cấu trúc và phù hợp với nội dung cần dạy.  |Giáo viên dạy thêm, gia sư | Phải tìm kiếm, đọc, chọn lọc và biên soạn nội dung từ nhiều nguồn khác nhau. Thời gian thực tế cần được ghi nhận qua từng buổi soạn bài. |trong sách giáo khoa có đầy đủ nhưng do giáo viên soạn ko chuẩn bị theo thì thực tế trong sách chỉ đủ kiến thức cơ bản và không thể chỉ dạy mỗi kiến thức cơ bản cho học sinh vì sẽ ảnh hưởng tới kết quả thi và học tập của học sinh.(Bảo Minh) |
-| 2 |Minh |Khi học một kiến thức mới hoặc tham gia một buổi học, tôi muốn có thể ghi nhớ và truy xuất lại kiến thức đã học sau một khoảng thời gian để sử dụng chúng trong những tình huống tiếp theo. |Học sinh, sinh viên, người tự học, nhân viên tham gia đào tạo. |Kiến thức không được ôn tập hoặc truy xuất thường xuyên, dẫn đến khó nhớ lại. Cần đo thời gian đọc lại và số lần phải học lại. |Vậy có phải do người đấy lười ôn tập hay những lí do khác.(Thái) |
-| 3 |Minh |Khi nhóm bắt đầu một công việc hoặc dự án mới có liên quan đến những công việc trước đây, tôi muốn truy xuất và áp dụng các bài học kinh nghiệm cũ để tránh lặp lại sai lầm và nâng cao hiệu quả thực hiện. |Nhân viên, thành viên nhóm dự án, trưởng nhóm |Kinh nghiệm cũ khó được nhớ lại hoặc tìm kiếm. Thời gian tìm kiếm thực tế cần được đo bằng cách theo dõi một số nhiệm vụ. |Nếu kinh nghiệm cũ khó được nhớ lại hoặc tìm kiếm, làm thế nào để xác định vấn đề thực sự nằm ở việc nhân viên không ghi chép, hệ thống lưu trữ chưa hiệu quả hay quy trình tìm kiếm còn phức tạp?(Duyệt)  |
-| 4 | Đào Lê Bảo Minh | Khi làm lab mới cần kiến thức 1–2 tuần trước, muốn nhớ lại nhanh và biết mình còn hiểu tới đâu | Học viên AI20K | Đọc lại slide 10–30 phút chỉ tạo cảm giác quen; không có bước ôn giãn cách | "NotebookLM đã tổng hợp tài liệu, quên thì hỏi lại là nó trích xuất nhanh, vậy sao vẫn là problem?" (Duyệt) · "Nhân viên của công ty bị quên mindset như thế nào? Bạn biết bằng cách nào?" (Duyệt) · "Quên là do không ôn thường xuyên, phương pháp học chưa hợp hay do lượng kiến thức quá lớn?" (Hoàng Minh) |
-| 5 | Đào Lê Bảo Minh | Khi cần tìm lại link, hướng dẫn lab hay thông báo cũ, muốn tìm ra ngay | Học viên AI20K, nhận tin từ 5 nguồn | Search không ra phải kéo lại tin nhắn, ~15 phút/lần | |
-| 6 | Đào Lê Bảo Minh | Khi số điện có ngày tăng đột biến, muốn biết nguyên nhân để chỉnh thói quen | Người thuê trọ | Chỉ đoán nguyên nhân rồi bỏ qua | |
+| 1 | Hoàng Minh |Khi chuẩn bị cho các buổi dạy thêm hằng tuần, tôi muốn xây dựng giáo án đầy đủ, có cấu trúc và phù hợp với nội dung cần dạy.  |Giáo viên dạy thêm, gia sư | Phải tìm kiếm, đọc, chọn lọc và biên soạn nội dung từ nhiều nguồn khác nhau. Thời gian thực tế cần được ghi nhận qua từng buổi soạn bài. |trong sách giáo khoa có đầy đủ nhưng do giáo viên soạn ko chuẩn bị theo thì thực tế trong sách chỉ đủ kiến thức cơ bản và không thể chỉ dạy mỗi kiến thức cơ bản cho học sinh vì sẽ ảnh hưởng tới kết quả thi và học tập của học sinh.(Bảo Minh) |
+| 2 | Hoàng Minh |Khi học một kiến thức mới hoặc tham gia một buổi học, tôi muốn có thể ghi nhớ và truy xuất lại kiến thức đã học sau một khoảng thời gian để sử dụng chúng trong những tình huống tiếp theo. |Học sinh, sinh viên, người tự học, nhân viên tham gia đào tạo. |Kiến thức không được ôn tập hoặc truy xuất thường xuyên, dẫn đến khó nhớ lại. Cần đo thời gian đọc lại và số lần phải học lại. |Vậy có phải do người đấy lười ôn tập hay những lí do khác.(Thái) |
+| 3 | Hoàng Minh |Khi nhóm bắt đầu một công việc hoặc dự án mới có liên quan đến những công việc trước đây, tôi muốn truy xuất và áp dụng các bài học kinh nghiệm cũ để tránh lặp lại sai lầm và nâng cao hiệu quả thực hiện. |Nhân viên, thành viên nhóm dự án, trưởng nhóm |Kinh nghiệm cũ khó được nhớ lại hoặc tìm kiếm. Thời gian tìm kiếm thực tế cần được đo bằng cách theo dõi một số nhiệm vụ. |Nếu kinh nghiệm cũ khó được nhớ lại hoặc tìm kiếm, làm thế nào để xác định vấn đề thực sự nằm ở việc nhân viên không ghi chép, hệ thống lưu trữ chưa hiệu quả hay quy trình tìm kiếm còn phức tạp?(Duyệt)  |
+| 4 | Bảo Minh | Khi làm lab mới cần kiến thức 1–2 tuần trước, muốn nhớ lại nhanh và biết mình còn hiểu tới đâu | Học viên AI20K | Đọc lại slide 10–30 phút chỉ tạo cảm giác quen; không có bước ôn giãn cách | "NotebookLM đã tổng hợp tài liệu, quên thì hỏi lại là nó trích xuất nhanh, vậy sao vẫn là problem?" (Duyệt) · "Nhân viên của công ty bị quên mindset như thế nào? Bạn biết bằng cách nào?" (Duyệt) · "Quên là do không ôn thường xuyên, phương pháp học chưa hợp hay do lượng kiến thức quá lớn?" (Hoàng Minh) |
+| 5 | Bảo Minh | Khi cần tìm lại link, hướng dẫn lab hay thông báo cũ, muốn tìm ra ngay | Học viên AI20K, nhận tin từ 5 nguồn | Search không ra phải kéo lại tin nhắn, ~15 phút/lần | |
+| 6 | Bảo Minh | Khi số điện có ngày tăng đột biến, muốn biết nguyên nhân để chỉnh thói quen | Người thuê trọ | Chỉ đoán nguyên nhân rồi bỏ qua | |
 | 7 | Duyệt | Khi phải theo dõi thông báo từ 10+ kênh, muốn thấy ngay tin quan trọng để không lỡ deadline | Học viên | Lọc tin quan trọng ~10 phút/ngày, lỡ 2–3 thông báo/tuần | "Vấn đề bạn gặp có giống vấn đề của Minh không?" (thành viên nhóm) |
 | 8 | Duyệt | Khi học nhiều kiến thức mới, muốn nhớ lại được nội dung đã học | Học viên | Tìm/lướt lại ghi chú ~15 phút/lần, hơn 30 phút/ngày | |
 | 9 | Duyệt | Khi nhiều việc học, làm, cá nhân cùng lúc, muốn biết nên làm việc nào trước | Học viên vừa học vừa làm | Quyết định thứ tự ~7 phút/ngày, tuần trước trễ 2–3 việc | |
@@ -124,6 +124,7 @@ Tổng hợp:
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
 |Phỏng vấn người học |3 |Người học kể lại tình huống thường xuyên quên bài hoặc không biết ôn phần nào |Người học có lịch ôn tập rõ ràng và ít gặp vấn đề này |
+| Hỏi mọi người khi pitch vòng đồng trong cụm | 5 nhóm | Cả 5 nhóm đều đồng tình với vấn đề | Đồng tình sau khi nghe pitch mới là ý kiến, chưa phải hành vi đã xảy ra |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
 Người học gặp khó khăn trong việc xác định nội dung cần ôn tập và thời điểm ôn tập phù hợp, dẫn đến việc ôn tập thiếu hệ thống và khó ghi nhớ kiến thức lâu dài.
@@ -206,7 +207,7 @@ PHƯƠNG ÁN QUAY VỀ: câu hỏi lạc đề hoặc chấm sai → bỏ câu �
 | Số bước | 5 (học lại nhiều lần) | 6 | Thêm bước nhưng mỗi bước ngắn và có chủ đích |
 | Tổng thời gian | ~20 phút/lần nhớ lại × ~3 lần/tuần | ~14 phút/lần ôn; nhớ lại khi làm lab dưới 5 phút | Thời gian chuyển từ "học lại khi đã quên" sang "ôn trước khi quên" |
 | Số bước thủ công | 5/5 | 3/6 | Người học vẫn tự trả lời và tự xem lại chấm |
-| Bottleneck chính | Đọc lại slide | Tự trả lời câu hỏi | Chấp nhận được, vì đây chính là bước luyện nhớ |
+| Bottleneck chính | Không biết ôn nội dung nào, ôn lúc nào; ôn thì chỉ đọc lại | Tự trả lời câu hỏi | Chấp nhận được, vì đây chính là bước luyện nhớ |
 | Rủi ro mới phát sinh | — | AI hỏi ngoài ghi chú, chấm sai; người học bỏ ôn | Xử lý bằng boundary, bước 6 và ngưỡng dừng |
 
 ---
@@ -216,8 +217,8 @@ PHƯƠNG ÁN QUAY VỀ: câu hỏi lạc đề hoặc chấm sai → bỏ câu �
 | Trường | Nội dung |
 |---|---|
 | **Actor** | Người học và người đi làm phải tiếp nhận nhiều kiến thức mới: học viên, nhân viên sau đào tạo hoặc họp rút kinh nghiệm |
-| **Quy trình** | Học hoặc họp → ghi chú → khi cần dùng lại thì tìm và đọc lại tài liệu → quay lại làm việc |
-| **Bottleneck** | Đọc lại 10–30 phút mỗi lần chỉ tạo cảm giác quen; không có bước ôn giãn cách nên lại quên |
+| **Quy trình** | Tiếp nhận kiến thức → ghi chép, lưu tài liệu → ôn tập không cố định → không nhớ rõ khi cần → tìm lại và học lại |
+| **Bottleneck** | Không biết nên ôn nội dung nào và vào lúc nào; khi cần thì đọc lại 10–30 phút mỗi lần, chỉ tạo cảm giác quen, nên lại quên |
 | **Impact** | ~20 phút/lần × ~3 lần/tuần ≈ 60 phút/tuần/người (ước tính); sau 10 ngày chỉ nhớ ~3/10 khái niệm; ở tổ chức thì lặp lại lỗi cũ |
 | **Success Metric** (baseline → target, cách đo) | Thời gian nhớ lại một khái niệm: ~20 phút → dưới 5 phút. Bộ 10 câu tự kiểm tra (viết ngay sau buổi học, làm lại sau 10 ngày, không xem tài liệu): ~3/10 → ≥7/10. Đo bằng tự ghi giờ và làm bộ câu hỏi trong 2 tuần |
 | **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | AI không tạo nội dung ngoài tài liệu người học đưa vào, không tự kết luận người học "đã nhớ". Người học xem lại kết quả chấm trước khi ghi nhận |
@@ -309,7 +310,7 @@ Vì sao: câu hỏi tổng hợp và cách chấm bài giải thích không có 
 
 | Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
 |---|---|---|---|
-| **Value** | Người dùng có thật sự cần và sẽ dùng không? | Trung bình | Nhóm 8 và cả 5 nhóm trong cụm đều xác nhận có quên, nhưng mới là ý kiến; chưa chứng minh được Anki + NotebookLM là không đủ |
+| **Value** | Người dùng có thật sự cần và sẽ dùng không? | Trung bình | 3 học viên được phỏng vấn và cả 5 nhóm trong cụm đều xác nhận có quên, nhưng mới là lời kể và ý kiến, có 1 tín hiệu phản bác (người có lịch ôn rõ ràng thì ít gặp); chưa chứng minh được Anki + NotebookLM là không đủ |
 | **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | Trung bình | Đọc và sửa kết quả chấm thì dễ, nhưng phải tự trả lời và duy trì ôn đều, dễ bỏ |
 | **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | Thấp | Anki/FSRS, NotebookLM và các mô hình ngôn ngữ đều có sẵn; dữ liệu là ghi chú của chính người học |
 | **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | Trung bình | Chi phí nhỏ, nhưng cần hỏi quy định về việc đưa slide khóa học vào công cụ AI |
@@ -342,7 +343,7 @@ Vì sao: câu hỏi tổng hợp và cách chấm bài giải thích không có 
 ## 9. Hạn chế và hướng tiếp theo
 
 - Các con số baseline (~20 phút, ~3/10) là ước tính của một người, chưa bấm giờ thật.
-- Kiểm chứng ngoài nhóm mới dừng ở mức hỏi nhóm 8 và sự đồng tình sau pitch, chưa có phỏng vấn sâu theo The Mom Test. Pilot 2 tuần sẽ bù phần số liệu hành vi.
+- Kiểm chứng mới có 3 học viên được phỏng vấn và sự đồng tình sau pitch trong cụm; interview snapshot chưa ghi đủ câu nói nguyên văn và thời gian cụ thể. Pilot 2 tuần sẽ bù phần số liệu hành vi.
 - Hướng tiếp theo: vấn đề tổ chức lặp lại lỗi cũ sau họp rút kinh nghiệm (candidate #3) là hướng tiềm năng cho vòng sau.
 
 ## 10. Tài liệu tham khảo
