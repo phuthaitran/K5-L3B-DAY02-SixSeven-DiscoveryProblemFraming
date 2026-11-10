@@ -139,7 +139,7 @@ HIỆN TẠI — ~4 phút/lần, gần như mỗi ngày, nhưng không ra kết 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
 | Pitch Problem Card | Chia sẻ idea về top 3 problems | Problem #1 được chọn làm problem được pitch, được nhận ý kiến đóng góp phát triển từ các team members |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Nếu bạn đóng vai với tư cách là dev của grab, tính năng bạn muốn bổ sung giúp khách hàng trả ít tiền hơn liệu có làm ảnh hưởng đến doanh thu của công ty không? | Nhận được câu trả lời từ bạn thuyết trình |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: Nếu bạn đóng vai với tư cách là dev của grab, tính năng bạn muốn bổ sung giúp khách hàng trả ít tiền hơn liệu có làm ảnh hưởng đến doanh thu của công ty không? | Bạn trả lời tính năng này mục đích là giúp user tiếp cận dễ hơn, mua đồ ăn rẻ hơn so với cách áp thử giảm giá rồi check từng đơn như hiện tại, tuy nhiên không trả lời được ý có mang lại doanh thu cho công ty hay không. |
 | Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
 | Gom cluster / cây OST | | |
 | Chọn candidate problem | | |
@@ -156,11 +156,11 @@ HIỆN TẠI — ~4 phút/lần, gần như mỗi ngày, nhưng không ra kết 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
 | CP1 Scan | gợi ý thêm các vấn đề | tìm được một vài vấn đề mà em gặp thật | vài vấn đề có thể solve rất dễ | bỏ qua hoặc đưa ra ý kiến cho AI sửa |
-| CP2 Problem Card | viết | viết đủ, khớp mục đích | | |
-| CP4 Research | tìm kiếm các công cụ tương tự, so sánh | | tìm kiếm thiếu | nhắc nhở, bổ sung thêm cho AI research thêm |
+| CP2 Problem Card | Đóng vai PM hoài nghi để phản biện card #1 | Chỉ ra Job Story lẫn giải pháp, dấu hiệu thật chỉ định tính, metric khó đo khách quan | Chỉ thấy một bottleneck (đọc lại chỉ tạo recognition), bỏ sót việc thiếu ôn giãn cách; đưa ra cơ chế "đẩy kiến thức cũ ra" không đúng khoa học | Thêm bottleneck 2; đổi sang đường cong quên + interference; chuẩn hóa bộ 10 câu tự kiểm tra |
+| CP4 Research | Tìm công cụ tương tự và số liệu khoa học cho slide | Tìm được Roediger & Karpicke (2006): sau 1 tuần, nhóm tự kiểm tra nhớ 61%, nhóm đọc lại nhớ 40%. Đây là bằng chứng cho bottleneck "đọc lại chỉ tạo recognition" | Lần đầu tìm thiếu công cụ; con số McKinsey "1,8 giờ/ngày tìm thông tin" được trích khắp nơi nhưng một nguồn đối chiếu cho thấy nó không có trong báo cáo gốc | Nhắc AI tìm thêm; chỉ dùng con số ~19% thời gian có trong báo cáo gốc |
 | CP5 Quy trình | | | | |
 | CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP6 Mức can thiệp | Dựng slide 5 trang: vấn đề → thực trạng → giải pháp hiện có → giải pháp → trước/sau | Có khung trình bày nhanh, số liệu có nguồn | Slide hứa kết quả nhưng chưa có cách đo; chưa xử lý rủi ro AI chấm sai; chưa so sánh 4 mức No AI / Rule / Workflow / Agent | [em ghi phần em đã sửa] |
 
 ---
 
@@ -170,26 +170,37 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
-Các bạn có những vấn đề mà bản thân mình không gặp, nhưng đều là những vấn đề rất thật, các sản phẩm hiện tại chưa đáp ứng hoặc tốc độ adapt chậm.
+Các bạn có những vấn đề mà bản thân mình không gặp, nhưng đều là những vấn đề rất thật, các sản phẩm hiện tại chưa đáp ứng hoặc tốc độ adapt chậm. Nhu cầu ứng dụng AI xuất hiện ở hai mục đích lớn: tự động hoá một task lặp lại, và tổng hợp thông tin đa nguồn. Một task chưa hẳn sử dụng AI từ bạn Phú Thái: IT support, hỗ trợ user nhưng gặp các vấn đề mà bản thân chưa gặp, phải nhắn hỏi đồng nghiệp hoặc tra thêm bên ngoài mất thời gian. Em cho rằng đây là vấn đề về quy trình, công ty chưa có cách để đội ngũ support tra cứu dễ hơn, nhanh hơn, chưa có chỗ tổng hợp các case cũ, cũng như cố gắng fix càng nhanh càng tốt thay vì dành thời gian để cân nhắc. 
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
-Chưa bị lần nào. Mỗi vấn đề đều xuất phát từ vấn đề có thật. Đau thật.
+Các vấn đề mà từng bạn (Duyệt, Thái và Hoàng Minh) pitching chéo chưa có tư duy solution-first. bạn thì bảo "muốn làm cách nào để soạn giáo án nhanh hơn thay vì thủ công quá nhiều", một bạn "nạp thông tin quá nhiều trong thời gian ngắn, không kịp research để tổng hợp kiến thức nhanh", một bạn "IT support không tra cứu được nhanh lời giải ở đâu mà phải hỏi back and forth với đồng nghiệp"
+tuy nhiên, vấn đề của em thì có. từ bước job story em từng viết "tôi muốn quản trị knowledge base dưới dạng tri thức và làm bài tập với nhiều format trước khi quên". em hiểu đây chính là điển hình của solution-first, tuy nhiên nó xuất phát từ vấn đề em đã định nghĩa từ rất lâu "nhiều ghi chú loạn, khó kiểu soát; học xong quên, chưa có cách spaced repetition phù hợp ngoài anki; em muốn khi ôn lại, em được cho bài tập để giải thật sự (trắc nghiệm, tự luận, ...) thay vì đơn thuần là lật thẻ card". tuy nhiên vấn đề của em đã được em định nghĩa từ hơn một tháng và em đã lên solution cụ thể. điều đó không phủ nhận em đang tư duy hướng dần theo hướng solution-first và các bạn đã nhắc em sửa lại khi pitching chéo.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
-Chưa.
+Bạn Duyệt có đặt câu hỏi cho em là "nhân viên của công ty bị quên mindset như thế nào? bạn biết bằng cách nào?". Em đã có sẵn câu trả lời vì đó chính là vấn đề mà em viết "nhân viên họp xong dù hiểu vấn đề của mình, nhưng với 8 tiếng/ngày làm việc này việc kia, đôi khi bị cuốn vào làm việc mà không để ý đến việc mình có đang suy nghĩ đúng hướng không, dẫn tới mỗi buổi họp hoặc workshop dù tốn công tổ chức nhưng chỉ mang lại hiệu quả trong vài ngày. khi gặp vấn đề mới, họ không tư duy được để gắn mindset cần sửa vào để suy nghĩ."
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
-Không làm tôi bất ngờ. Vì các problems này đã được tôi research trước đó và xác định rõ root cause.
+Không bất ngờ lắm, đúng như tôi đoán từ đầu. Pitch vòng đồng trước cụm 5 nhóm thì nhóm nào cũng gật đầu, ai cũng từng học xong rồi quên. Phần research thì Anki, NotebookLM, Quizlet mỗi cái làm được một khúc, chưa thấy cái nào vừa nhắc ôn đúng lúc vừa kiểm tra được mình có hiểu thật không.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Khó nhất là em đang chưa suy nghĩ được nên tách actor như thế nào. Vì story ban đầu của em gồm hai actor: người học và nhân viên. Dù vấn đề của mỗi actor nghe giống nhau nhưng đôi khi không thể tồn tại một lời giải chung được, và điều đó đòi hỏi em phân tích case tốt hơn, chứng minh pain thật sự có thật và tìm ra khoảng cách.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Nếu làm lại, tôi sẽ làm kỹ hơn ở phần kiểm chứng và khảo sát. Do thời lượng làm pitching ngắn, tôi chưa thể thực hiện khảo sát ngay lúc đó được, trong khi việc chứng minh các giả định là có thật rất quan trọng. Nếu giả định không có thật hoặc vỡ, nó sẽ chứng minh lời giải của em là vô nghĩa. Do đó em sẽ khảo sát kỹ hơn, đặt các câu hỏi phù hợp để hy vọng nhận được những câu trả lời dễ gây bất ngờ nhất.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Mỗi bạn viết 3 problems -> đưa ra proof chứng minh vì sao bài toán của mình đáng giải -> chọn ra problem ăn tiền nhất cho pitching cụm -> sử dụng AI để research (khảo sát xu hướng cũng như các hướng giải hiện tại) -> evidences -> bottlenecks -> lời giải baseline (no AI) -> ước lượng hiệu quả -> AI có thể giúp baseline tốt hơn thế nào, tốt hơn bao nhiêu lần -> kết luận.
 
 ---
 
 ## 7. Tài liệu tham khảo
+
+- Murre, J. M. J., & Dros, J. (2015). Replication and Analysis of Ebbinghaus' Forgetting Curve. PLOS ONE. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4492928/
+- Roediger, H. L., & Karpicke, J. D. (2006). Test-Enhanced Learning. Psychological Science, 17(3), 249–255. https://psychology.ecu.edu/wp-content/pv-uploads/sites/216/2019/03/Roediger-Karpicke-2006.pdf
+- McKinsey Global Institute (2012). The social economy (con số ~19% thời gian tìm thông tin).
